@@ -310,7 +310,6 @@ li.list:not(:last-child) {
 
   #aboutMeText1{
     font-size: 25px;
-    padding-top: 5%;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -321,7 +320,6 @@ li.list:not(:last-child) {
 
   #aboutMeText2{
     font-size: 25px;
-    padding-top: 5%;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -645,8 +643,23 @@ li.list:not(:last-child) {
   }
 
   #aboutMeText1{
-    padding-bottom: 30px;
+    margin-top: 5%;
+    font-size: 23px;
     display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    color: white;
+    text-shadow: 4px 4px 5px rgb(0, 0, 0);
+  }
+
+  #aboutMeText2{
+    font-size: 25px;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
     color: white;
     text-shadow: 4px 4px 5px rgb(0, 0, 0);
   }
