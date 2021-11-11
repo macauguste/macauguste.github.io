@@ -472,28 +472,11 @@ li.list:not(:last-child) {
     padding-top: 4vh;
   }
 
-  .pdf{
-    min-height: 100vh;
-    min-width: 100%;
-  }
-
-  .quote{
-  text-transform: capitalize;
-  vertical-align: middle;
-  color: white;
-  font-weight: bold;
-  text-shadow: 0 0 20px #000000;
-  font-style: italic;
-  margin-top: 30%;
-  margin-left: 10%;
-  margin-right: 10%;
-  }
-
   .skills{
     padding: 0;
     margin-left: auto; 
-    height: 450px;
-    width: 400px;
+    height: 60vh;
+    width: 50vh;
     color: white;
     text-transform:none;
     background-color: rgba(20, 43, 58, 0.5);
@@ -501,8 +484,7 @@ li.list:not(:last-child) {
 
   .aboutMeImage{
     height:40%;
-    padding-top: 15px;
-    
+    margin-top: 15px;
   }
 
   .skillsPic{
@@ -510,8 +492,8 @@ li.list:not(:last-child) {
   }
 
   .aboutMeInfo{
-    padding: 20px;
-    height:60%;
+    margin-top: 2vh;
+    height: 60%;
   } 
 
   .pb1 {
@@ -646,7 +628,8 @@ li.list:not(:last-child) {
 
   #aboutMeText1{
     margin-top: 5%;
-    font-size: 23px;
+    margin-bottom: 5%;
+    font-size: 3vh;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -656,7 +639,7 @@ li.list:not(:last-child) {
   }
 
   #aboutMeText2{
-    font-size: 25px;
+    font-size: 3vh;
     margin-top: 5%;
     display: flex;
     justify-content: center;
