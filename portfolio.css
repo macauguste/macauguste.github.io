@@ -217,6 +217,7 @@ li.list:not(:last-child) {
 
 @media (min-width: 900px) {
   
+   
     .InformationScreen {
       width: 75%;
       height:100vh;
@@ -241,7 +242,7 @@ li.list:not(:last-child) {
     color: rgb(144, 139, 139);  
     cursor: pointer;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 2vh;
   }
 
   a:hover{
@@ -280,12 +281,12 @@ li.list:not(:last-child) {
 
   .PTitle h1{
     color: white;
-    font-size: 20px; 
+    font-size: 2.5vh; 
   }
 
   .PTitle h2{
     color: white;
-    font-size:16px;
+    font-size:2vh;
   }
 
   .dropbtn{
@@ -296,8 +297,8 @@ li.list:not(:last-child) {
   .linkList{
     list-style: none;
     height: 80%;
-    padding-top: 40px;
-    padding-right: 20px;
+    padding-top: 5vh;
+    padding-right: 2vh;
     margin: 0;
     display: block;
     list-style-position: inside;
@@ -305,7 +306,8 @@ li.list:not(:last-child) {
   } 
 
   li.list{ 
-    margin-bottom: 70px;  
+    margin-bottom: 8vh; 
+    line-height: 6vh; 
   }
 
   .accountImages{
@@ -345,7 +347,7 @@ li.list:not(:last-child) {
   }
 
   .portforlioPicture{
-    height: 180px;
+    height: 26vh;
     display: block;
     margin-left: auto;
     margin-right: auto;
