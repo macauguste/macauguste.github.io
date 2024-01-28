@@ -1,29 +1,25 @@
 let app = Vue.createApp({
-  data: function(){
-    
-    Me = {
+  data: function () {
+    (Me = {
       name: 'Mckern D. Auguste',
       picture: '/images/mckernPng.jpg',
       title: 'Full Stack Developer',
       languages: ' Java, Javascript, C++, Css, Html',
       projectOne: 'Database Application',
       age: function findAge(currentAge) {
-          birthdate = 1996;
-          currentYear = new Date.getFullYear();
-          
-          currentAge = currentYear - birthdate;
-            return {
-            currentAge
-            }
+        birthdate = 1996;
+        currentYear = new Date.getFullYear();
+
+        currentAge = currentYear - birthdate;
+        return {
+          currentAge,
+        };
       },
       email: 'mckernauguste@gmail.com',
-    },
-
-    
-    Videos = {
-      video:'',
-     
-    }
+    }),
+      (Videos = {
+        video: '',
+      });
 
     return {
       name: Me.name,
@@ -33,9 +29,7 @@ let app = Vue.createApp({
       age: Me.currentAge,
       email: Me.email,
       projectOne: Me.projectOne,
-    }
+    };
   },
 });
-app.mount('#app')
-
-
+app.mount('#app');
